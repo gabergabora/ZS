@@ -14,7 +14,7 @@ const User = require('./models/user');
 const MONGODB_URI =
     'mongodb+srv://DevSolutions:8ttM5kVi6BqOe2ol@cluster0.8t7rw.mongodb.net/zodiak-silver-test';
 
-const app = express();
+const app = express();             
 const store = new MongoDBStore({
     uri: MONGODB_URI,
     collection: 'sessions'
